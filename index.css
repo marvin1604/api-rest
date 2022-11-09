@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    height: 100hv; */
+}
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 8px;
+}
+
+#imagen-titulo{
+    width: 200px;
+    margin: 8px;
+}
+/* pokedex */
+#random-pokemon{
+    background-color: #ef2b34;
+    width: 95%;
+    height: 100vh;
+    max-width: 400px;
+    max-height: 710px;
+    border-radius: 10px;
+    border: 5px solid #a31e27 ;
+}
+.botones{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(244, 244, 245);
+    border-radius: 50%;
+    left: 25px;
+    top: 5px;
+}
+.celeste{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background-color: rgb(27, 156, 207);
+    border-radius: 50%;
+    left: 8px;
+    top: 8px;
+}
+.rojo{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(248, 246, 246) ;
+    background-color: rgb(166, 28, 28);
+    border-radius: 50%;
+    left: 58px;
+    top:5px;
+}
+.amarillo{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(248, 246, 246) ;
+    background-color: yellow;
+    border-radius: 50%;
+    left: 78px;
+    top: 5px;
+}
+.verde{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(248, 246, 246) ;
+    background-color: green;
+    border-radius: 50%;
+    left: 98px;
+    top: 5px;
+}
+.marco{
+    background: white;
+    margin: 10px 20px;
+    padding: 10px;
+    width: calc(100%-20px);
+    height: 550px;
+    border-radius: 20px;
+}
+
+.container-pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: skyblue;
+    margin:12px ;
+    border-radius: 12px;
+    height: 500px;
+}
+
+.container-pokemon p{
+    font-size: 2.5rem;
+    color: rgb(20, 26, 180);
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 8px;
+}
+
+.buttons{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.button{
+    position: absolute;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgb(143, 130, 130);
+    right: 50px;
+    top: 0;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.search{
+    position: absolute;
+    right: 60px;
+    top:60px;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+
+
