@@ -1,1 +1,0 @@
-// const pokePs = document.querySelector("#ps");
