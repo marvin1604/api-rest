@@ -41,10 +41,11 @@ async function llamadoApi(){
 
     const res = await fetch(`${tipo}`);
     const dat = await res.json();
+
     tipoPoke= dat.egg_groups[0].name;
     namePokemon.textContent = nombre;
     img.src = figura;
-    img.style = "width: 250px";
+    img.className = "imagen-pokedex";
     tipoPokemon.textContent = `Type: ${tipoPoke}`
     tipoPokemon.translate = "yes";
     buttonSave.onclick = () => saveFavorites(nombre, figura, pokemonNumero);
