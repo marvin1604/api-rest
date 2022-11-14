@@ -170,22 +170,22 @@ h1{
 
 .guardar{
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 0;
 }
 .aleatorio{
     position: absolute;
-    left: 180px;
+    right: 180px;
     top: 0;
 }
 .anterior{
     position: absolute;
-    right: 200px;
+    left: 180px;
     top: 0;
 }
 .siguiente{
     position: absolute;
-    right: 50px;
+    right: 30px;
     top: 0;
 }
 .button-favorito{
